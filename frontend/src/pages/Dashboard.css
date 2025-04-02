@@ -1,0 +1,209 @@
+   /* Dashboard.css */
+/* .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    position: relative;
+  }
+  
+  .chat-container {
+    text-align: center;
+    color: white;
+    width: 100vw;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    width: 800px;
+    margin-left: 15vw;
+    margin-top: 20px;
+  }
+  .heading{
+    margin-bottom: 100px;
+  }
+  .inp {
+    background: none;
+    border: none;
+    color: white;
+    flex: 1;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #444;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  .profile-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+   */
+
+   .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #484646;
+    position: relative;
+  }
+  
+  .heading {
+    color: white;
+    margin-top: 230px;
+  }
+  
+  .email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .email-box {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    color: white;
+  }
+  
+  .field-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .field-group label {
+    width: 80px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .email-box input,
+  .message-input {
+    flex: 1;
+    padding: 10px;
+    background: #333;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .message-input {
+    height: 130px;
+    resize: none;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .edit-btn,
+  .send-btn {
+    background-color: #444;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover,
+  .send-btn:hover {
+    background-color: #666;
+  }
+  
+  /* Profile Icon */
+  .profile-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Fixed Input Box at Bottom */
+  .fixed-input-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    width: 830px;
+  }
+  
+  .inp {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #444;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
