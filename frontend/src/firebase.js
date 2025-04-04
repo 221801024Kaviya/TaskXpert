@@ -2,12 +2,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBrgyBvuhEWfgcF9WQAvCZt4yjWSuWhi2A",
+    apiKey: "your_api",
     authDomain: "taskxpert-b038c.firebaseapp.com",
     projectId: "taskxpert-b038c",
     storageBucket: "taskxpert-b038c.firebasestorage.app",
     messagingSenderId: "239313087527",
-    appId: "1:239313087527:web:d0c61aad5c0696c856b202",
+    appId: "your_app_id",
     measurementId: "G-1XN90JBSY7"
 };
 
